@@ -1,0 +1,12 @@
+{
+  "reference_date": "2019-10-31 23:59:00",
+  "cohort_rows": 25890,
+  "pre_behavior_groups": 2,
+  "segment_counts": {
+    "High": 1296,
+    "Medium": 704,
+    "Low": 0
+  },
+  "model_best": "logistic_regression",
+  "output_dir": "/Users/salmanzaidi/Documents/personal/data-analytics-projects/notebooks/output"
+}

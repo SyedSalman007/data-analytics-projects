@@ -1,0 +1,91 @@
+{
+  "best_model": "logistic_regression",
+  "metrics": {
+    "logistic_regression": {
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "f1_at_0_5": 1.0,
+      "confusion_matrix": [
+        [
+          497,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 497.0
+        },
+        "1": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 3.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 500.0
+        },
+        "weighted avg": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 500.0
+        }
+      }
+    },
+    "random_forest": {
+      "roc_auc": 0.9423205902079141,
+      "pr_auc": 0.06235600148643627,
+      "f1_at_0_5": 0.0,
+      "confusion_matrix": [
+        [
+          486,
+          11
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "classification_report": {
+        "0": {
+          "precision": 0.9938650306748467,
+          "recall": 0.9778672032193159,
+          "f1-score": 0.9858012170385395,
+          "support": 497.0
+        },
+        "1": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 3.0
+        },
+        "accuracy": 0.972,
+        "macro avg": {
+          "precision": 0.49693251533742333,
+          "recall": 0.48893360160965793,
+          "f1-score": 0.49290060851926976,
+          "support": 500.0
+        },
+        "weighted avg": {
+          "precision": 0.9879018404907975,
+          "recall": 0.972,
+          "f1-score": 0.9798864097363083,
+          "support": 500.0
+        }
+      }
+    }
+  },
+  "n_customers": 2000,
+  "churn_rate": 0.0065
+}
