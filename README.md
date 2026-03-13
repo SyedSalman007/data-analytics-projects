@@ -30,3 +30,11 @@ python3 notebooks/customer_churn_analysis.py
 ```
 
 Outputs are generated in `notebooks/output/`.
+
+## Project 02: E-Commerce Sales Analytics
+
+Implemented in:
+- `notebooks/02_ecommerce_sales/ecommerce_sales_analysis.py`
+- `notebooks/02_ecommerce_sales/02_ecommerce_sales_analysis.ipynb`
+
+Outputs are generated in `notebooks/02_ecommerce_sales/output/`.
