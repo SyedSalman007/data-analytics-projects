@@ -9,14 +9,13 @@
 From repo root:
 
 ```bash
-python3 -m venv .venv
+scripts/bootstrap_venv.sh
 source .venv/bin/activate
-pip install -r requirements.txt
-python3 notebooks/customer_churn_analysis.py
+python notebooks/Customer\\ Churn\\ Analytics/customer_churn_analysis.py
 ```
 
 Or open notebook:
 
 ```bash
-jupyter notebook notebooks/01_customer_churn_analytics.ipynb
+jupyter notebook notebooks/Customer\\ Churn\\ Analytics/01_customer_churn_analytics.ipynb
 ```

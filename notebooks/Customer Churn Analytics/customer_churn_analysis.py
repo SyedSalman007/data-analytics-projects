@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import sys
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, Iterable, Tuple
@@ -23,6 +24,12 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
 sns.set_theme(style="whitegrid")
+
+if sys.version_info < (3, 13):
+    raise RuntimeError(
+        f"Python 3.13+ required (business standard). Found: {sys.version.split()[0]}. "
+        "Run: scripts/bootstrap_venv.sh"
+    )
 
 
 @dataclass

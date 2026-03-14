@@ -11,8 +11,8 @@ data-analytics-projects
 ## Project 01: Customer Churn Analytics
 
 Implemented in:
-- `notebooks/customer_churn_analysis.py`
-- `notebooks/01_customer_churn_analytics.ipynb`
+- `notebooks/Customer Churn Analytics/customer_churn_analysis.py`
+- `notebooks/Customer Churn Analytics/01_customer_churn_analytics.ipynb`
 
 This project includes:
 1. Cohort analysis (customer retention by signup month)
@@ -23,13 +23,12 @@ This project includes:
 ### Setup and Run
 
 ```bash
-python3 -m venv .venv
+scripts/bootstrap_venv.sh
 source .venv/bin/activate
-pip install -r requirements.txt
-python3 notebooks/customer_churn_analysis.py
+python notebooks/Customer\\ Churn\\ Analytics/customer_churn_analysis.py
 ```
 
-Outputs are generated in `notebooks/output/`.
+Outputs are generated in `notebooks/Customer Churn Analytics/output/`.
 
 ## Project 02: E-Commerce Sales Analytics
 
@@ -38,3 +37,7 @@ Implemented in:
 - `notebooks/02_ecommerce_sales/02_ecommerce_sales_analysis.ipynb`
 
 Outputs are generated in `notebooks/02_ecommerce_sales/output/`.
+
+## Python Version
+
+This repo targets Python 3.13 (see `.python-version` and `pyproject.toml`). Use `scripts/bootstrap_venv.sh` to recreate `.venv` with `python3.13`.

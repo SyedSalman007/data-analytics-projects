@@ -14,10 +14,9 @@ Reads CSVs from `datasets/E-Commerce Sales Dataset/`:
 From repo root:
 
 ```bash
-python3 -m venv .venv
+scripts/bootstrap_venv.sh
 source .venv/bin/activate
-pip install -r requirements.txt
-python3 notebooks/02_ecommerce_sales/ecommerce_sales_analysis.py
+python notebooks/02_ecommerce_sales/ecommerce_sales_analysis.py
 ```
 
 Or open the notebook:
