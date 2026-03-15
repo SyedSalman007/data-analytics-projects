@@ -38,6 +38,14 @@ Implemented in:
 
 Outputs are generated in `notebooks/02_ecommerce_sales/output/`.
 
+## Project 03: A/B Analysis Testing
+
+Implemented in:
+- `notebooks/03_ab_testing/ab_testing_analysis.py`
+- `notebooks/03_ab_testing/03_ab_testing_dashboard.ipynb`
+
+Outputs are generated in `notebooks/03_ab_testing/output/`.
+
 ## Python Version
 
 This repo targets Python 3.13 (see `.python-version` and `pyproject.toml`). Use `scripts/bootstrap_venv.sh` to recreate `.venv` with `python3.13`.
