@@ -42,7 +42,7 @@ class Paths:
 def resolve_paths(base_dir: str | Path = ".") -> Paths:
     base = Path(base_dir).resolve()
     dataset_dir = base / "datasets" / "Financial Transactions Dataset"
-    output_dir = base / "notebooks" / "output"
+    output_dir = base / "notebooks" / "Customer Churn Analytics" / "output"
     output_dir.mkdir(parents=True, exist_ok=True)
     return Paths(base_dir=base, dataset_dir=dataset_dir, output_dir=output_dir)
 
